@@ -15,8 +15,20 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hammer of thor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dmq-DV-nUV">
+                                <rect key="frame" x="34" y="396" width="325" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dmq-DV-nUV" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="4dS-fo-IYL"/>
+                            <constraint firstItem="Dmq-DV-nUV" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="POS-5B-eFz"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fkg-0E-h3I"/>
                 </viewController>
